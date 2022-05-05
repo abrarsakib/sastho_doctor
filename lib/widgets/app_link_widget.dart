@@ -26,7 +26,7 @@ class AppLinkWidget extends StatelessWidget {
           style: TextFontStyle.links,
         )),
         Text(
-          'IR PARA O SITE',
+          'GO TO THE WEBSITE',
           style: TextFontStyle.iParaOSite,
         ),
         IconButton(

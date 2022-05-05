@@ -65,8 +65,8 @@ class _AppDrawerState extends State<AppDrawer> {
             icon: AssetIcons.home,
             title: 'Home',
             onTap: () {
-              Navigator.pushNamed(context, Routes.navigation,
-                  arguments: const HomeScreen());
+              // Navigator.pushNamed(context, Routes.navigation,
+              //     arguments: const HomeScreen());
             },
           ),
           Container(
@@ -78,8 +78,8 @@ class _AppDrawerState extends State<AppDrawer> {
             icon: AssetIcons.sobrenos,
             title: 'Sobre nós',
             onTap: () {
-              Navigator.pushNamed(context, Routes.navigation,
-                  arguments: const SobrenosScreen());
+              // Navigator.pushNamed(context, Routes.navigation,
+              //     arguments: const SobrenosScreen());
             },
           ),
           Container(
@@ -91,8 +91,8 @@ class _AppDrawerState extends State<AppDrawer> {
             icon: AssetIcons.content,
             title: 'Contestar',
             onTap: () {
-              Navigator.pushNamed(context, Routes.navigation,
-                  arguments: const ContestarScreen());
+              // Navigator.pushNamed(context, Routes.navigation,
+              //     arguments: const ContestarScreen());
             },
           ),
           Container(
@@ -117,8 +117,8 @@ class _AppDrawerState extends State<AppDrawer> {
             icon: AssetIcons.faq,
             title: 'Faqs',
             onTap: () {
-              Navigator.pushNamed(context, Routes.navigation,
-                  arguments: const FaqsScreen());
+              // Navigator.pushNamed(context, Routes.navigation,
+              //     arguments: const FaqsScreen());
             },
           ),
           Container(
@@ -130,8 +130,8 @@ class _AppDrawerState extends State<AppDrawer> {
             icon: AssetIcons.mais,
             title: 'Mais Serviços',
             onTap: () {
-              Navigator.pushNamed(context, Routes.navigation,
-                  arguments: const ServiceScreen());
+              // Navigator.pushNamed(context, Routes.navigation,
+              //     arguments: const ServiceScreen());
             },
           ),
           Container(
@@ -143,8 +143,8 @@ class _AppDrawerState extends State<AppDrawer> {
             icon: AssetIcons.contact,
             title: 'Contactos',
             onTap: () {
-              Navigator.pushNamed(context, Routes.navigation,
-                  arguments: const ContactScreen());
+              // Navigator.pushNamed(context, Routes.navigation,
+              //     arguments: const ContactScreen());
             },
           ),
           Container(

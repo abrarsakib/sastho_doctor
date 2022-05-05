@@ -1,5 +1,5 @@
 import 'package:contesta_na_hora/constants/app_color.dart';
-import 'package:contesta_na_hora/controller/contasa.dart';
+import 'package:contesta_na_hora/controller/appbarname.dart';
 import 'package:contesta_na_hora/helpers/all_routes.dart';
 import 'package:contesta_na_hora/helpers/navigation_service.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +17,7 @@ class MainAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     //final appBarTheme = Theme.of(context).appBarTheme;
     return AppBar(
-      title: Consumer<Contasa>(
+      title: Consumer<AppbarName>(
           builder: (context, value, child) => Text(value.name)),
       actions: [
         Padding(
