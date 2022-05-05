@@ -12,7 +12,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:provider/provider.dart';
 import './screens/welcome_screen.dart';
 import 'constants/custome_theme.dart';
-import 'controller/contasa.dart';
+import 'controller/appbarname.dart';
 import 'helpers/all_routes.dart';
 import 'helpers/navigation_service.dart';
 import 'helpers/notification_service.dart';
@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider<Contasa>(create: ((context) => Contasa()))
+        ChangeNotifierProvider<AppbarName>(create: ((context) => AppbarName()))
       ],
       child: ScreenUtilInit(
         designSize: const Size(375, 812),

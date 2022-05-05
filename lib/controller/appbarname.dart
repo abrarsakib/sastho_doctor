@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Contasa extends ChangeNotifier {
+class AppbarName extends ChangeNotifier {
   String _val = "Home";
 
   String get name => _val;
